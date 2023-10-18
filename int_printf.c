@@ -18,7 +18,7 @@ int _printf(const char *format, ...)
 	if (format[n] == '\0')
 		return (0);
 
-	str = malloc(2000);
+	str = malloc(1024);
 
 	if (str == NULL)
 		return (-1);
