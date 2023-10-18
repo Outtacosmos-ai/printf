@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _buffer_ - print_char
  * @c: charactere
@@ -7,6 +8,7 @@
  *
  * Return: always index
  */
+
 int _buffer_(char c, char *buffer, int index)
 {
 	if (index ==  1024)
